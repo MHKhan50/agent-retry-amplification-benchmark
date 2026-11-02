@@ -1,0 +1,62 @@
+{
+  "benchmark": "Agent Retry Amplification Benchmark (ARAM)",
+  "version": "0.1.0",
+  "synthetic_scenarios": 6000,
+  "seeds": [
+    13,
+    29,
+    47,
+    61,
+    89
+  ],
+  "policies": [
+    "no_retry",
+    "naive_retry",
+    "bounded_backoff",
+    "idempotency_key"
+  ],
+  "policy_evaluations": 24000,
+  "metrics": [
+    {
+      "policy": "no_retry",
+      "episodes": 6000,
+      "task_success_rate": 0.291333,
+      "mean_attempts": 1.0,
+      "mean_retry_amplification": 0.0,
+      "duplicate_side_effect_episode_rate": 0.0,
+      "mean_duplicate_side_effects": 0.0,
+      "mean_latency_steps": 2.006333
+    },
+    {
+      "policy": "naive_retry",
+      "episodes": 6000,
+      "task_success_rate": 0.943167,
+      "mean_attempts": 2.616833,
+      "mean_retry_amplification": 1.616833,
+      "duplicate_side_effect_episode_rate": 0.302667,
+      "mean_duplicate_side_effects": 0.678333,
+      "mean_latency_steps": 6.879167
+    },
+    {
+      "policy": "bounded_backoff",
+      "episodes": 6000,
+      "task_success_rate": 0.714,
+      "mean_attempts": 2.176333,
+      "mean_retry_amplification": 1.176333,
+      "duplicate_side_effect_episode_rate": 0.302667,
+      "mean_duplicate_side_effects": 0.498667,
+      "mean_latency_steps": 6.016167
+    },
+    {
+      "policy": "idempotency_key",
+      "episodes": 6000,
+      "task_success_rate": 0.943167,
+      "mean_attempts": 2.616833,
+      "mean_retry_amplification": 1.616833,
+      "duplicate_side_effect_episode_rate": 0.0,
+      "mean_duplicate_side_effects": 0.0,
+      "mean_latency_steps": 9.286333
+    }
+  ],
+  "interpretation_warning": "Deterministic synthetic simulator results only; not real-world agent or payment-system measurements."
+}

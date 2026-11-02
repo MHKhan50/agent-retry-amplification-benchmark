@@ -1,0 +1,13 @@
+test_aggregate_has_all_policies (test_benchmark.BenchmarkTests.test_aggregate_has_all_policies) ... ok
+test_bounded_retry_caps_attempts (test_benchmark.BenchmarkTests.test_bounded_retry_caps_attempts) ... ok
+test_full_run_shape (test_benchmark.BenchmarkTests.test_full_run_shape) ... ok
+test_idempotency_deduplicates_committed_retries (test_benchmark.BenchmarkTests.test_idempotency_deduplicates_committed_retries) ... ok
+test_naive_retry_can_duplicate_effects (test_benchmark.BenchmarkTests.test_naive_retry_can_duplicate_effects) ... ok
+test_no_retry_makes_one_attempt (test_benchmark.BenchmarkTests.test_no_retry_makes_one_attempt) ... ok
+test_policy_names_are_unique (test_benchmark.BenchmarkTests.test_policy_names_are_unique) ... ok
+test_scenario_generation_is_deterministic (test_benchmark.BenchmarkTests.test_scenario_generation_is_deterministic) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

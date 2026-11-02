@@ -1,0 +1,5 @@
+policy,episodes,task_success_rate,mean_attempts,mean_retry_amplification,duplicate_side_effect_episode_rate,mean_duplicate_side_effects,mean_latency_steps
+no_retry,6000,0.291333,1.0,0.0,0.0,0.0,2.006333
+naive_retry,6000,0.943167,2.616833,1.616833,0.302667,0.678333,6.879167
+bounded_backoff,6000,0.714,2.176333,1.176333,0.302667,0.498667,6.016167
+idempotency_key,6000,0.943167,2.616833,1.616833,0.0,0.0,9.286333
