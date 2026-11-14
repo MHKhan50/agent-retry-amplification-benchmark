@@ -1,5 +1,7 @@
 # Agent Retry Amplification Benchmark (ARAM)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24228328.svg)](https://doi.org/10.5281/zenodo.24228328)
+
 **Version:** 0.1.0
 **Author:** Muzammal Hussain
 **Date:** 2 November 2026
