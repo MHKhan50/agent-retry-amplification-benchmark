@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Agent Retry Amplification Benchmark (ARAM)"
+version: 0.1.0
+date-released: 2026-11-14
+type: software
+authors:
+  - family-names: Hussain
+    given-names: Muzammal
+    orcid: "https://orcid.org/0009-0001-2570-5686"
+repository-code: "https://github.com/MHKhan50/agent-retry-amplification-benchmark"
+license: MIT
+keywords:
+  - agentic AI
+  - retries
+  - idempotency
+  - synthetic benchmark
